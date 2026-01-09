@@ -1,0 +1,12 @@
+{
+  "name": "walrus-portal",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev:server": "cd server && bun run start",
+    "build:server": "cd server && bun run build"
+  },
+  "workspaces": [
+    "server"
+  ]
+}

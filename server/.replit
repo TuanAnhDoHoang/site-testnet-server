@@ -1,0 +1,5 @@
+run = "bun run start"
+modules = ["bun:latest"]
+
+[env]
+BUN_INSTALL = "yarn"
